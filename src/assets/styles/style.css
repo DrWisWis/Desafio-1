@@ -10,3 +10,32 @@ main {
     display: flex;
     align-items: center;
 }
+
+.card {
+    height: 350px;
+    width: 354px;
+    background-color: rgb(189, 189, 189);
+    color: white;
+    border-radius: 20px;
+}
+
+.card img {
+    width: 90px;
+    height: 90px;
+}
+
+.leading {
+    display: flex;
+}
+
+.mobile {
+    display: flex;
+}
+
+.card-avaliation {
+    height: 425px;
+    width: 1120;
+    background-color: #67C3F3;
+    border-radius: 24px;
+    color: white;
+}
