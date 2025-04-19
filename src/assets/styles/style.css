@@ -1,17 +1,29 @@
 body{
     margin: 2% 16%;
 }
+
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+header a {
+    text-decoration: none;
+    cursor: pointer;
+    color: darkgrey;
+}
+
+header a:hover {
+    color: black;
+}
+
 main {
     display: flex;
     align-items: center;
 }
 
-main-text button{
+main main-text button{
     height: 60px;
     width: 200px;
     border-radius: 55px;
@@ -21,9 +33,40 @@ main-text button{
     border: none;
 }
 
+main-text button{
+    height: 60px;
+    width: 200px;
+    border-radius: 55px;
+    background-color: #458ff600;
+    font-size: 18px;
+    color: #458ff6;
+    border: 2px solid #458ff6;
+}
+
 main img {
     height: 693px;
     width: 598px;
+}
+
+.line {
+    background-color: black;
+    height: 2px;
+    width: 56px;
+}
+
+.cards {
+    height: 1120px;
+    width: 745px;
+}
+
+.cards button {
+    height: 60px;
+    width: 200px;
+    border-radius: 55px;
+    background-color: #458ff600;
+    font-size: 18px;
+    color: #458ff6;
+    border: 2px solid #458ff6;
 }
 
 .cards-up{
@@ -37,14 +80,21 @@ main img {
 .card {
     height: 350px;
     width: 354px;
-    background-color: rgb(189, 189, 189);
-    color: white;
+    background-color: rgb(236, 236, 236);
     border-radius: 20px;
 }
 
 .card img {
     width: 90px;
     height: 90px;
+}
+
+.card h1 {
+    color: black;
+}
+
+.card p {
+    color: darkgrey;;
 }
 
 .leading {
