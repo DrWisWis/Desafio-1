@@ -56,7 +56,7 @@ main img {
 
 .cards {
     height: 1120px;
-    width: 745px;
+    width: 85%;
 }
 
 .cards button {
@@ -70,11 +70,15 @@ main img {
 }
 
 .cards-up{
+    width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 .cards-down {
+    width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 .card {
