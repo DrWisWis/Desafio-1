@@ -11,6 +11,29 @@ main {
     align-items: center;
 }
 
+main-text button{
+    height: 60px;
+    width: 200px;
+    border-radius: 55px;
+    background-color: #458FF6;
+    font-size: 18px;
+    color: white;
+    border: none;
+}
+
+main img {
+    height: 693px;
+    width: 598px;
+}
+
+.cards-up{
+    display: flex;
+}
+
+.cards-down {
+    display: flex;
+}
+
 .card {
     height: 350px;
     width: 354px;
