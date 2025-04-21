@@ -1,4 +1,8 @@
-body{
+body {
+    margin: 0%;
+}
+
+.body{
     margin: 2% 16%;
 }
 
@@ -17,6 +21,17 @@ header a {
 header a:hover {
     color: black;
 }
+
+.logo-circle {
+    background: #3b82f6;
+    color: white;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 nav {
     display: flex;
@@ -210,7 +225,7 @@ main img {
 .card-avaliation {
     height: 425px;
     width: 1120;
-    background-color: #5A98F2;
+    background: linear-gradient(135deg, #62c1ff, #3b82f6);
     border-radius: 24px;
     color: white;
     display: flex;
@@ -290,6 +305,7 @@ main-card {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 129px;
 }
 
 .card-services {
@@ -336,3 +352,76 @@ main-card {
     color: #4089ED;
     font-size: 17px;
 }
+
+footer {
+    background: linear-gradient(135deg, #62c1ff, #3b82f6);
+    color: white;
+    padding: 60px 40px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-logo {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .footer-logo h3 {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo-circle-reverse {
+    background: white;
+    color: #3b82f6;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .footer-logo p {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #e0e0e0;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-links h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    font-size: 14px;
+    color: #d1d5db;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
