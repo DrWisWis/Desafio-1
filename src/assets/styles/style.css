@@ -18,6 +18,12 @@ header a:hover {
     color: black;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 545px;
+}
+
 main {
     display: flex;
     align-items: center;
@@ -121,12 +127,13 @@ main img {
 .card {
     height: 350px;
     width: 354px;
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
     margin-right: 34px;
     margin-bottom: 37px;
     box-sizing: border-box;
     padding: 30px 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
 }
 
 .card img {
@@ -203,9 +210,61 @@ main img {
 .card-avaliation {
     height: 425px;
     width: 1120;
-    background-color: #67C3F3;
+    background-color: #5A98F2;
     border-radius: 24px;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 216px;
+}
+
+.card-avaliation h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.card-avaliation .line-white {
+    background-color: white;
+    height: 2px;
+    width: 56px;
+    margin-bottom: 77px;
+}
+
+main-card {
+    display: flex;
+}
+
+.person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.person-text{
+    margin-right: 111px;
+}
+
+.person-text h2{
+    font-size: 22px;
+}
+
+.person-text p {
+    font-size: 18px;
+}
+
+.person img {
+    margin-right: 29px;
+}
+
+.description {
+    max-width: 420px;
+}
+
+.description p {
+    color: white;
+    font-size: 19px;
 }
 
 .services h1 {
@@ -237,12 +296,22 @@ main img {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 69px;
 }
 
 .card-service {
     width: 350px;
     height: 512px;
     border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+
+}
+
+.card-service-text {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px;
 }
 
 .card-service img {
